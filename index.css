@@ -1,0 +1,76 @@
+:root {
+background-image: url(background2.jpg);
+background-size: 100vw 100vh;
+
+
+}
+/*.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}*/
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: min-content;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom-style: groove;
+    border-bottom-color: #72c4bf;
+}
+/*.header > a {
+    background-color: grey;
+    margin: 20px;
+}*/
+body {
+    display: block;
+    margin-top: 5vh;
+}
+.nzabajp{
+    padding-left: 6vw;
+}
+.ico {
+    text-align: center;
+}
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.github {
+    width: 34px;
+    height: 34px;
+}
+.linkedin {
+    width: 34px;
+    height: 34px;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    width: 100%;
+}
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 400%;
+    text-align: center;
+    color: #FFFFFF;
+
+backdrop-filter: blur(4px);
+}
+/*footer {
+    background-color: white;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}*/
